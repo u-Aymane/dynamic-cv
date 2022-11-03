@@ -1,13 +1,303 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "SteradianRegular";
+  font-size: 14px;
+  color: black;
+  background: #ffffff
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fields-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 44vh;
+  margin: 26px;
+}
+
+.cv-w{
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+p{
+  margin: 0;
+}
+
+.wrp-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 1.35vh;
+  font-family: "SteradianLight";
+}
+
+label.menu {
+  font-family: 'SteradianMedium';
+  font-size: 1.7vh;
+  letter-spacing: -0.5px;
+}
+
+.cv-wrapper {
+  background: #ffffff;
+  padding: 44px 82px;
+  width: 78vh;
+  height: fit-content;
+  margin: 21px 11px;
+  position: relative;
+  border-radius: 11px;
+  box-shadow: 4px 4px 20px 0px #88888854;
+} 
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: center;
+  background: white;
+  box-shadow: 0px 2px 20px 0px #88888833;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.detail-cv {
+  padding-top: 10px;
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+button.upload {
+  display: flex;
+  width: 16vh;
+  height: 4vh;
+  background: #000000;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+  font-family: "Steradian";
+}
+
+button.upload:hover {
+  background: white;
+  color: black;
+  transition: all 0.4s;
+  border: 1px solid #000000;
+}
+
+label.upload {
+  display: flex;
+  width: 16vh;
+  height: 4vh;
+  background: #000000;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+  font-family: "Steradian";
+  cursor: pointer;
+}
+
+label.upload:hover {
+  background: white;
+  color: black;
+  transition: all 0.4s;
+  border: 1px solid #000000;
+}
+
+input {
+  padding: 14px 10px;
+  border-radius: 5px;
+  border: 1px solid #c5c5c5;
+  box-shadow: 0.5px 1px 6px 0px #8888880f;
+}
+
+.cv-body {
+  display: flex;
+  flex-direction: row;
+  padding: 2vh;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.li-wrapper {
+  padding-left: 3vh;
+}
+
+.competence {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.cv-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.avatar-wrapper {
+  border-radius: 195px;
+  position: relative;
+  width: 16vh;
+  overflow: hidden;
+  height: 16vh;
+  background: transparent;
+  object-fit: cover;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+}
+
+button.remove-btn {
+  background: transparent;
+  border: none;
+  height: 3vh;
+  width: 3vh;
+  border-radius: 8px;
+  color: black;
+  font-size: 19px;
+  border: 1px solid;
+}
+
+
+button.remove-btn:hover {
+  background: black;
+  color: white;
+  transition: all 0.4s;
+}
+
+button{
+  cursor: pointer;
+}
+
+button.add-btn {
+  background: black;
+  border: none;
+  height: 3vh;
+  width: 3vh;
+  border-radius: 8px;
+  color: white;
+  font-size: 19px;
+}
+
+button.add-btn:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  transition: all 0.4s;
+}
+
+.add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 3vh;
+  max-width: 211px;
+  margin-top: 22px;
+  font-family: "SteradianMedium";
+  word-wrap: break-word;
+}
+
+img.logo {
+  height: 6vh;
+  max-width: 90vh;
+}
+
+img {
+  max-width: 95px;
+  object-fit: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+}
+
+img {
+  max-width: 16vh;
+  object-fit: cover;
+}
+
+
+@font-face {
+  font-family: 'SteradianRegular';
+  src: url('./fonts/SteradianRegular.woff2') format('woff2'),
+       url('./fonts/SteradianRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'SteradianMedium';
+  src: url('./fonts/SteradianMedium.woff2') format('woff2'),
+       url('./fonts/SteradianMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'SteradianLight';
+  src: url('./fonts/SteradianLight.woff2') format('woff2'),
+       url('./fonts/SteradianLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'SteradianBold';
+  src: url('./fonts/SteradianBold.woff2') format('woff2'),
+       url('./fonts/SteradianBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Moderat';
+  src: url('./fonts/Moderat-Bold.woff2') format('woff2'),
+       url('./fonts/Moderat-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }

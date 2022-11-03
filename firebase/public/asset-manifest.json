@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.583df2f0.css",
+    "main.js": "/static/js/main.37ff581c.js",
+    "static/media/Moderat-Bold.woff": "/static/media/Moderat-Bold.8107e7ff774a749bcc4e.woff",
+    "static/media/SteradianRegular.woff": "/static/media/SteradianRegular.921b78bab84804607970.woff",
+    "static/media/Moderat-Bold.woff2": "/static/media/Moderat-Bold.43589ddd886fc5099799.woff2",
+    "static/media/SteradianRegular.woff2": "/static/media/SteradianRegular.6ace6fd2d6d9079f9d2c.woff2",
+    "static/media/SteradianMedium.woff": "/static/media/SteradianMedium.1e1b40f5eb3dc256e664.woff",
+    "static/media/SteradianBold.woff": "/static/media/SteradianBold.7ef67053b7826cf3c093.woff",
+    "static/media/SteradianLight.woff": "/static/media/SteradianLight.309a70dbdfb17e86a97e.woff",
+    "static/media/SteradianMedium.woff2": "/static/media/SteradianMedium.0e1b1e05d57fd9d92638.woff2",
+    "static/media/SteradianBold.woff2": "/static/media/SteradianBold.50d87d6b7dc0bf3b8776.woff2",
+    "static/media/SteradianLight.woff2": "/static/media/SteradianLight.ced1e29ada48036ced25.woff2",
+    "index.html": "/index.html",
+    "main.583df2f0.css.map": "/static/css/main.583df2f0.css.map",
+    "main.37ff581c.js.map": "/static/js/main.37ff581c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.583df2f0.css",
+    "static/js/main.37ff581c.js"
+  ]
+}
